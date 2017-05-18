@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yy"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anantmehra.eatfirst2.Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2">
+
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chaayos"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="232dp"
+
+                android:layout_marginTop="575dp" />
+
+            <Button
+                android:id="@+id/star"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/starbucks"
+                android:layout_marginLeft="210dp"
+
+                android:layout_marginTop="635dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="-50dp"
+                app:srcCompat="@drawable/click"
+                android:layout_toEndOf="@+id/textView2"
+                android:layout_marginTop="-200dp"
+                android:layout_toRightOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:text="Hunger Strikes???"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="14dp"
+                android:text="Your food is just a few clicks away !!"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginLeft="160dp"
+
+                app:srcCompat="@drawable/emoji" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Junkyard Cafe"
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="11dp"
+
+                android:layout_marginTop="405dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burger King"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="225dp"
+
+                android:layout_marginTop="405dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barbeque Nation"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="13dp"
+
+                android:layout_marginTop="575dp"
+                 />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza Hut"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="230dp"
+
+                android:layout_marginTop="240dp"
+              />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+
+                android:layout_marginTop="240dp"
+                android:text="ITC Bukhara"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+             />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="80dp"
+                android:text="So how can we satisfy your craving today?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/hut"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+
+                android:layout_marginTop="140dp"
+
+                android:background="@drawable/pizza" />
+
+            <Button
+                android:id="@+id/king"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+
+                android:layout_marginTop="305dp"
+                android:background="@drawable/burger" />
+
+
+            <Button
+                android:id="@+id/barb"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/barbeque"
+                android:layout_marginTop="470dp"
+                android:layout_marginLeft="15dp"/>
+
+
+            <Button
+                android:id="@+id/chai"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="210dp"
+
+                android:layout_marginTop="470dp"
+                android:background="@drawable/tea" />
+
+
+            <Button
+                android:id="@+id/itc"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="140dp"
+
+                android:background="@drawable/i"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/junk"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/junkyard"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/taco"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/taco"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="635dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="740dp"
+                android:text="Taco Bell"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="232dp"
+                android:layout_marginTop="740dp"
+                android:text="Starbucks"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp"
+
+                android:textStyle="normal|bold" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+\
+</RelativeLayout>

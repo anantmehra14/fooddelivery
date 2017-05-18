@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context="com.example.anantmehra.eatfirst2.Main11Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+
+                android:layout_marginLeft="84dp"
+                android:layout_marginTop="213dp"
+
+                android:src="@drawable/giphy"
+
+                />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:layout_marginLeft="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="115dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView11"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignLeft="@+id/number"
+                android:layout_alignStart="@+id/number"
+                android:hint="Name" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="315dp"
+                android:textStyle="bold"
+                android:text="Email id :" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="300dp"
+
+
+                android:hint="Email Id" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="365dp"
+                android:textStyle="bold"
+                android:text="Password :" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="350dp"
+                android:hint="Password"
+                android:password="true"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="400dp"
+                android:text="Address :"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="495dp"
+                android:textStyle="bold"
+                android:text="Road No. :" />
+
+            <EditText
+                android:id="@+id/road"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="480dp"
+                android:inputType="number"
+                android:hint="Road No." />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="645dp"
+                android:textStyle="bold"
+                android:inputType="number"
+                android:text="Pincode :" />
+
+
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Pincode"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="630dp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="175dp"
+                android:textStyle="bold"
+                android:text="Phone No. :" />
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="160dp"
+                android:inputType="number"
+
+                android:hint="Phone No."/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="24dp"
+                android:text="Welcome to EatFirst."
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="70dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Just a few details before we start !!" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="545dp"
+                android:textStyle="bold"
+                android:text="Street :" />
+
+            <EditText
+                android:id="@+id/street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="530dp"
+                android:hint="Street" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="445dp"
+                android:textStyle="bold"
+                android:text="House No. :" />
+            <EditText
+               android:id="@+id/house"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="430dp"
+                android:inputType="number"
+                android:hint="House No." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="595dp"
+                android:textStyle="bold"
+                android:text="City :" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="580dp"
+                android:hint="City" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start"
+                android:text="Lets Start"
+                android:layout_marginTop="690dp"
+                android:layout_marginLeft="135dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

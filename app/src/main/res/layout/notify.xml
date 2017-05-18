@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="112dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/notif_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="9dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_alignBottom="@+id/notif_icon"
+        android:layout_toRightOf="@+id/notif_icon"
+        android:layout_toEndOf="@+id/notif_icon"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+
+    <TextView
+        android:id="@+id/notif_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingTop="8dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="SOME TEXT"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/notif_icon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+ </RelativeLayout>

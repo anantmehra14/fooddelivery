@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anantmehra.eatfirst2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/eat"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".Main9Activity" />
+        <activity android:name=".Main10Activity" />
+        <activity android:name=".Main11Activity" />
+        <activity android:name=".cart" />
+        <activity
+            android:name=".burger1"
+            android:label="@string/title_activity_burger1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".barb1" />
+        <activity android:name=".pizza1" />
+        <activity android:name=".junk1" />
+        <activity android:name=".chaayos1" />
+        <activity android:name=".taco1" />
+        <activity android:name=".starbucks1" />
+        <activity android:name=".paymentt" />
+        <activity android:name=".confirm"></activity>
+
+
+
+    </application>
+
+</manifest>
